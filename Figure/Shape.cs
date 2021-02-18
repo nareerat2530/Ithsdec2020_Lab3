@@ -6,20 +6,25 @@ namespace Figure
     public abstract class Shape
     { 
         public abstract Vector3 Center { get; }
+        
         public abstract float Area { get; }
+        
         private static float RandomFloat()
         {
             var random = new Random();
             return (float)random.NextDouble()*10;
         }
+        
         private static Vector3 RandomVactor3()
         {
             return new (RandomFloat(),RandomFloat(),RandomFloat());
         }
+        
         private static Vector2 RandomVactor2()
         {
             return new (RandomFloat(), RandomFloat());
         }
+        
         public static Shape GenerateShape()
         {
             var rnd = new Random();
@@ -35,6 +40,7 @@ namespace Figure
                 _ => new Rectangle(RandomVactor2(), RandomFloat())
             };
         }
+        
         private static Triangle ReturnTriangleFromCenterPoint(Vector3 center)
         {
             var point1 = RandomVactor2();
