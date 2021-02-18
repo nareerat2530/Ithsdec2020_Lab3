@@ -6,18 +6,16 @@ using Figure;
 
 namespace Iths_lab2
 {
-    internal class Program
+    internal static class Program
     {
         private static readonly List<Shape> ShapeList = new();
-        static void Main(string[] args)
+
+        private static void Main(string[] args)
         {
             Console.WriteLine();
             Console.Write($"20 random shapes are :");
-            Console.WriteLine();
             GenerateAndPrintOutAllTheShapes();
-            Console.WriteLine();
-            Console.WriteLine("_______________________________________________________________________");
-            Console.WriteLine();
+            Console.WriteLine("\n_______________________________________________________________________\n");
             Console.WriteLine($"Total Circumference of Triangle is {CalculateTriangleCircumference(ShapeList)}");
             Console.WriteLine($"\nThe average area of all the shapes is {CalculateAverageAreaOfAllShape(ShapeList)}");
             Console.WriteLine($"\nThe biggest volume of all the shapes is {FindBiggestVolumeOfAllTheShape(ShapeList)}");
