@@ -6,7 +6,9 @@ namespace Figure
     public class Circle : Shape2D
     {
         private readonly Vector3 _center;
+        
         private readonly float _radius; 
+        
         public Circle(Vector2 center, float radius)
         {
             _center.X = center.X;
@@ -16,7 +18,9 @@ namespace Figure
         }
 
         public override float Circumference => 2 * MathF.PI * _radius;
+        
         public override Vector3 Center => _center;
+        
         public override float Area => MathF.Pow(_radius, 2) * MathF.PI;
 
         public override string ToString()
