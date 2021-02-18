@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Figure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Figure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Figure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Figure/1.0.0": {
+      "type": "project",
+      "path": "../Figure/Figure.csproj",
+      "msbuildProject": "../Figure/Figure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Figure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\naree\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\naree\\RiderProjects\\Figure\\Iths_lab2\\Iths_lab2.csproj",
+      "projectName": "Iths_lab2",
+      "projectPath": "C:\\Users\\naree\\RiderProjects\\Figure\\Iths_lab2\\Iths_lab2.csproj",
+      "packagesPath": "C:\\Users\\naree\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\naree\\RiderProjects\\Figure\\Iths_lab2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\naree\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\naree\\RiderProjects\\Figure\\Figure\\Figure.csproj": {
+              "projectPath": "C:\\Users\\naree\\RiderProjects\\Figure\\Figure\\Figure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Iths_lab2/1.0.0": {
+        "dependencies": {
+          "Figure": "1.0.0"
+        },
+        "runtime": {
+          "Iths_lab2.dll": {}
+        }
+      },
+      "Figure/1.0.0": {
+        "runtime": {
+          "Figure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Iths_lab2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Figure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

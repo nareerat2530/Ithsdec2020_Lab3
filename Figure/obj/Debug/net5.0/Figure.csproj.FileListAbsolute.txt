@@ -1,0 +1,12 @@
+C:\Users\naree\RiderProjects\Figure\Figure\bin\Debug\net5.0\Figure.deps.json
+C:\Users\naree\RiderProjects\Figure\Figure\bin\Debug\net5.0\Figure.dll
+C:\Users\naree\RiderProjects\Figure\Figure\bin\Debug\net5.0\ref\Figure.dll
+C:\Users\naree\RiderProjects\Figure\Figure\bin\Debug\net5.0\Figure.pdb
+C:\Users\naree\RiderProjects\Figure\Figure\obj\Debug\net5.0\Figure.csprojAssemblyReference.cache
+C:\Users\naree\RiderProjects\Figure\Figure\obj\Debug\net5.0\Figure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naree\RiderProjects\Figure\Figure\obj\Debug\net5.0\Figure.AssemblyInfoInputs.cache
+C:\Users\naree\RiderProjects\Figure\Figure\obj\Debug\net5.0\Figure.AssemblyInfo.cs
+C:\Users\naree\RiderProjects\Figure\Figure\obj\Debug\net5.0\Figure.csproj.CoreCompileInputs.cache
+C:\Users\naree\RiderProjects\Figure\Figure\obj\Debug\net5.0\Figure.dll
+C:\Users\naree\RiderProjects\Figure\Figure\obj\Debug\net5.0\ref\Figure.dll
+C:\Users\naree\RiderProjects\Figure\Figure\obj\Debug\net5.0\Figure.pdb
