@@ -12,11 +12,11 @@ namespace Iths_lab2
 
         private static void Main(string[] args)
         {
-            Console.WriteLine();
-            Console.Write($"20 random shapes are :");
+            
+            Console.WriteLine($"\n20 random shapes are:");
             GenerateAndPrintOutAllTheShapes();
             Console.WriteLine("\n_______________________________________________________________________\n");
-            Console.WriteLine($"Total Circumference of Triangle is {CalculateTriangleCircumference(ShapeList)}");
+            Console.WriteLine($"\nTotal Circumference of Triangle is {CalculateTriangleCircumference(ShapeList)}");
             Console.WriteLine($"\nThe average area of all the shapes is {CalculateAverageAreaOfAllShape(ShapeList)}");
             Console.WriteLine($"\nThe biggest volume of all the shapes is {FindBiggestVolumeOfAllTheShape(ShapeList)}");
             Console.WriteLine();

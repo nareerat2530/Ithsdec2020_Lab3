@@ -8,6 +8,7 @@ namespace Figure
         private readonly Vector3 _center;
 
         private readonly Vector2 _size;
+        
         public Rectangle(Vector2 center, Vector2 size)
         {
             _center.X = center.X;
@@ -25,9 +26,13 @@ namespace Figure
             _size.Y = width;
         }
         public override Vector3 Center => _center;
+        
         public override float Area => _size.X * _size.Y;
+        
         public override float Circumference => 2 * (_size.X + _size.Y);
+        
         private bool IsSquare => Math.Abs(_size.Y - _size.X) == 0;
+        
         public override string ToString()
         {
             return IsSquare
