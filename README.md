@@ -1,2 +1,1 @@
-# Ithsdec2020_Lab2
- class library  of shapes
+# create appication library for handling geometric figures.
