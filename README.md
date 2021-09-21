@@ -1,1 +1,1 @@
-# create appication library for handling geometric figures.
+# create an application library for handling geometric figures.
